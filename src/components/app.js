@@ -3,6 +3,8 @@ import moment from "moment";
 
 import AlignMe from "./alignme.js";
 import Alignment from "./traditionalcomponents.js";
+// import Counter from './countercomponent.js'
+import Counter from './countercomponent.js'
 
 
 

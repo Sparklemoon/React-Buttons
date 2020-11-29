@@ -25,7 +25,7 @@ export default class Alignment extends Component {
 
                 }}>Align Me</h2>
                 <button onClick={() => this.handleAlignmentChange("flex-start")}>left</button>
-                <button onClick={() => this.handleAlignmentChange("center")}></button>
+                <button onClick={() => this.handleAlignmentChange("center")}>center</button>
                 <button onClick={() => this.handleAlignmentChange("flex-end")}>right</button>
 
             </div>

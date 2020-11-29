@@ -5,7 +5,7 @@ export default class Counter extends Component {
         super(props)
 
         this.state = {
-            count: 0
+            counter: 0
         }
         this.upNumber = this.upNumber.bind(this)
         this.downNumber = this.downNumber.bind(this)
@@ -33,7 +33,7 @@ export default class Counter extends Component {
             <button onClick={() => this.upNumber}>UP</button>
             <button onClick={() => this.downNumber}>DOWN</button>
             <button onClick={() => this.reset}>Reset</button>
-            <h1>Current Count: {this.state.counter}</h1>
+            <h1>0 {this.state.counter}</h1>
          </div>
       );
     }

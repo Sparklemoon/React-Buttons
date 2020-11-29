@@ -5,7 +5,7 @@ import AlignMe from "./alignme.js";
 import Alignment from "./traditionalcomponents.js";
 // import Counter from './countercomponent.js'
 import Counter from './countercomponent.js'
-
+import Size from './sizecomponent.js'
 
 
 export default class App extends Component {
@@ -39,7 +39,7 @@ export default class App extends Component {
         {this.state.showText ? this.buttonTime() : null}
        </div>
 
-
+       <SizeChanger />
 
       <div>
         <AlignMe />

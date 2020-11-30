@@ -3,9 +3,9 @@ import moment from "moment";
 
 import AlignMe from "./alignme.js";
 import Alignment from "./traditionalcomponents.js";
-// import Counter from './countercomponent.js'
-import Counter from './countercomponent.js'
-import Size from './sizecomponent.js'
+import Counting from "./countingcomponent.js";
+import SizeChanger from "./sizecomponent.js"
+
 
 
 export default class App extends Component {
@@ -40,27 +40,11 @@ export default class App extends Component {
        </div>
 
        <SizeChanger />
-
+       <Counting />
       <div>
         <AlignMe />
       </div>
-       {/* <div className="align-me-buttons">
-         <h2>ALIGN ME</h2>
-         <button>LEFT</button>
-         <button>CENTER</button>
-         <button>RIGHT</button>
-        </div>
-
-       <div className="counting-buttons">
-         <button>Up</button> 
-         <button>Down</button>
-       </div>
       
-       <div className="bigger-smaller-buttons">
-         <button>Bigger</button>
-         <button>Smaller</button>
-       </div>
-          */}
        
        <div className="time">{moment().format("h:mm:ss")}</div>
       
